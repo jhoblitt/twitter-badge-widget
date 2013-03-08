@@ -61,7 +61,7 @@ function TBW_ProcessWidgets(jTB)
     var twitterWidgets = document.createElement('script');
     twitterWidgets.type = 'text/javascript';
     twitterWidgets.async = true;
-    twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+    twitterWidgets.src = 'https://platform.twitter.com/widgets.js';
     document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
   })();//Run on DOM ready
 
